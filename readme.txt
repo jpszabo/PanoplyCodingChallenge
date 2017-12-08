@@ -13,4 +13,6 @@ To run this program:
 2) From the command line, run "javac PanoplyCodingChallenge.java"
 3) Then run "java PanoplyCodingChallenge [episodeFile] [adCampaignDirectory]". The episodeFile and adCampaignDirectory are required, although there’s a bit of a failsafe in case you miss those. You can also choose to list ad campaign files if you’d rather not use a directory. 
 
+I print the audio contents of the episode out to the command line for easy viewing and also write out a new episode file, appending "_withAds" before the extension so that the original episode file can be used more than once (for more than one set of ad campaigns, for example).
+
 Enjoy! Let me know if you have any questions or issues.
