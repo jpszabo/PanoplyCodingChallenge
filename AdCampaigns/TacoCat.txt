@@ -1,0 +1,3 @@
+[
+  { audio: "*TacoCat*", type: "MID", targets: ["abc-123", "dag-892"], revenue: 3 }
+]

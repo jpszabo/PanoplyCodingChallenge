@@ -1,0 +1,5 @@
+[
+  { audio: "*AcmeA*", type: "PRE", targets: ["dag-892", "hab-812"], revenue: 1 },
+  { audio: "*AcmeB*", type: "MID", targets: ["dag-892", "hab-812"], revenue: 4 },
+  { audio: "*AcmeC*", type: "MID", targets: ["dag-892", "hab-812"], revenue: 5 }
+]
