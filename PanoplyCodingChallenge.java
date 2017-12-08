@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -229,7 +230,7 @@ public class PanoplyCodingChallenge {
     
 	// put the elements into a treeMap to sort them
     private static ArrayList<AdCampaign> sortByRevenuePerAd(ArrayList<AdCampaign> adCampaigns) {
-    		Map<Double, AdCampaign> sortedAds = new TreeMap<Double, AdCampaign>();
+    		Map<Double, AdCampaign> sortedAds = new TreeMap<Double, AdCampaign>(Collections.reverseOrder());
     		// We're using revenuePerAd as a key and there's a possibility for duplicates
     		double adjustment = 0.01;
     		for (AdCampaign ac : adCampaigns) {
